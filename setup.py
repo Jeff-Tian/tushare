@@ -75,13 +75,13 @@ def read_install_requires():
 
 
 setup(
-    name='tushare',
+    name='xtushare',
     version=read('tushare/VERSION.txt'),
     description='A utility for crawling historical and Real-time Quotes data of China stocks',
 #     long_description=read("READM.rst"),
     long_description = long_desc,
-    author='Jimmy Liu',
-    author_email='jimmysoa@sina.cn',
+    author='Jeff Tian',
+    author_email='jeff.tian@outlook.com',
     license='BSD',
     url='http://tushare.org',
     install_requires=read_install_requires(),
